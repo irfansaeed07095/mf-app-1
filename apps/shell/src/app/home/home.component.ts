@@ -5,6 +5,7 @@ import { map } from 'rxjs/operators';
 @Component({
   selector: 'mf-app-gallery-entry',
   template: ` <div class="container">
+    <h1>Home Component</h1>
     <ng-container *ngFor="let cat of cats | async">
       <div class="child">
         <h3>

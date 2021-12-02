@@ -15,6 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@eprod-ui/feature-menu": ["libs/shell/feature-menu/src/index.ts"],
+      "@eprod-ui/ticket-search-lib": [
+        "libs/ticket/feature-search/src/index.ts"
+      ],
       "@mf-app/shared/data-store": ["libs/shared/data-store/src/index.ts"]
     }
   },

@@ -27,12 +27,26 @@
     ]
   },
   "projects": {
+    "billing": {
+      "tags": []
+    },
+    "billing-e2e": {
+      "tags": [],
+      "implicitDependencies": ["billing"]
+    },
     "gallery": {
       "tags": []
     },
     "gallery-e2e": {
       "tags": [],
       "implicitDependencies": ["gallery"]
+    },
+    "invoicing": {
+      "tags": []
+    },
+    "invoicing-e2e": {
+      "tags": [],
+      "implicitDependencies": ["invoicing"]
     },
     "shared-data-store": {
       "tags": []
@@ -43,6 +57,19 @@
     "shell-e2e": {
       "tags": [],
       "implicitDependencies": ["shell"]
+    },
+    "shell-feature-menu": {
+      "tags": []
+    },
+    "ticket": {
+      "tags": []
+    },
+    "ticket-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ticket"]
+    },
+    "ticket-feature-search": {
+      "tags": []
     }
   }
 }
